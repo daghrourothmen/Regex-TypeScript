@@ -3,7 +3,7 @@ exports.__esModule = true;
 //RegExp
 var Regex = /24 && [z]/;
 var TestExp = "123456789abcdefghz..!!<&&";
-console.log(Regex.test(TestExp));
+// console.log(Regex.test(TestExp));
 //Types {string, Number, boolean, Array, Object}
 var ID = "s87f8s97g9s87ezf89ez798g";
 var First_Name = "Othmen";
@@ -88,14 +88,21 @@ var HexaColors;
 ;
 // Testing enum type
 var day = Days.Wednesday;
-console.log('***************');
-console.log(day);
-console.log('***************');
-console.log(Days[day]);
+// console.log('***************');
+// console.log(day);
+// console.log('***************');
+// console.log(Days[day]);
 //as
 var name;
 var age;
 name = "";
 age;
 //Display
-console.log(typeof (name));
+// console.log(typeof(name));
+//_Regexp_Test
+var RegExp = /^aa.+[zz]$/;
+var PhoneNumberTNRegExp = /^[+216].+[0..9]/;
+var Random_Number = 'aa4sd65f4sd6zz';
+var TunsianPhoneNumber = '+21496599024';
+console.log(RegExp.test(Random_Number));
+console.log(PhoneNumberTNRegExp.test(TunsianPhoneNumber));

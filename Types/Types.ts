@@ -4,7 +4,7 @@ export {};
 
 const Regex:RegExp= /24 && [z]/;
 const TestExp="123456789abcdefghz..!!<&&"
-console.log(Regex.test(TestExp));
+// console.log(Regex.test(TestExp));
 
 //Types {string, Number, boolean, Array, Object}
 
@@ -40,10 +40,10 @@ enum HexaColors {'#FFFFFF','#000000'};
 
 // Testing enum type
 let day:Days =Days.Wednesday;
-console.log('***************');
-console.log(day);
-console.log('***************');
-console.log(Days[day]);
+// console.log('***************');
+// console.log(day);
+// console.log('***************');
+// console.log(Days[day]);
 
 //as
 
@@ -55,7 +55,18 @@ age as Number;
 
 //Display
 
-console.log(typeof(name));
+// console.log(typeof(name));
+
+
+//_Regexp_Test
+
+const RegExp:RegExp=/^aa.+[zz]$/;
+const PhoneNumberTNRegExp:RegExp=/^[+216].+[0..9]/;
+
+let Random_Number='aa4sd65f4sd6zz';
+let TunsianPhoneNumber='+21496599024'
+console.log(RegExp.test(Random_Number));
+console.log(PhoneNumberTNRegExp.test(TunsianPhoneNumber));
 
 
 
