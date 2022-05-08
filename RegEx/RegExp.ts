@@ -1,4 +1,8 @@
-const RegEx:RegExp=/[^94]+.[024]$/;
-const PhoneNumber='96599024';
+let TableOfNumber:Array<string>=['1','2','3','4','5','6','7','8','9'];
+const PhoneNumber='86599024';   
 
-console.log(RegEx.test(PhoneNumber));
+const RegEx:string=`^${TableOfNumber[TableOfNumber.length-1]}`;
+const RegExV2:RegExp = new RegExp(RegEx,'g');
+
+
+console.log(RegExV2.test(PhoneNumber));
