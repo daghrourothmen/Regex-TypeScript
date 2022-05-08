@@ -68,5 +68,10 @@ let TunsianPhoneNumber='+21496599024'
 console.log(RegExp.test(Random_Number));
 console.log(PhoneNumberTNRegExp.test(TunsianPhoneNumber));
 
+//the exec() function in JS, used to test for match in a string
+// return the first match or null
+//the test() function in JS, used to execute a search for a match
+// between regex and a string, it returns true or false
+
 
 
